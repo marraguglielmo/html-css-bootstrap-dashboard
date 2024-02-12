@@ -1,0 +1,36 @@
+:root{
+    --bg-body: #F8F9FA;
+    --blue: #1B72E8;
+}
+
+.debug{
+    background-color: rgba(0, 128, 0, 0.3);
+    border: 1px solid black;
+}
+
+body{
+    font-family: 'Roboto', sans-serif; 
+    background-color: var(--bg-body);
+}
+
+img{
+    max-width: 100%;
+}
+
+header{
+    z-index: 999;
+    height: 70px;
+}
+
+aside{
+    top: 70px;
+    width: 150px;
+    height: calc(100vh - 70px);
+    z-index: 999;
+}
+
+main{
+    margin-top: 70px;
+    margin-left: 150px;
+    overflow: auto;
+}
