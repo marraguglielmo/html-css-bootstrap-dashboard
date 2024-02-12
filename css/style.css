@@ -23,15 +23,14 @@ header{
 }
 
 aside{
-    top: 70px;
     width: 150px;
-    height: calc(100vh - 72px);
+    height: 100vh;
     z-index: 999;
 }
 
-main{
-    margin-top: 72px;
-    margin-left: 150px;
+.main-top{
+    width: calc(100% - 150px);
+    height: 100vh;
     overflow: auto;
 }
 
