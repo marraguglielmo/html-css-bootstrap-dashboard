@@ -18,19 +18,17 @@ img{
 }
 
 header{
-    z-index: 999;
     height: 72px;
 }
 
 aside{
     width: 150px;
-    height: 100vh;
-    z-index: 999;
+    height: calc(100vh - 72px);
 }
 
-.main-top{
+.main-wrapper{
     width: calc(100% - 150px);
-    height: 100vh;
+    height: calc(100vh - 72px);
     overflow: auto;
 }
 
@@ -44,8 +42,8 @@ aside{
         width: 70px;
     }
     
-    main{
-        margin-left: 70px;
+    .main-wrapper{
+    width: calc(100% - 70px);
     }
 
 }
