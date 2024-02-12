@@ -22,15 +22,34 @@
 <body>
 
     <!-- HEADER -->
-    <header class="fs-2 debug">
-        header
+    <header class="container-fluid">
+
+        <div class="row h-100 align-items-center ">
+            <!-- col 1 -->
+            <div class="col-2 h-100 d-flex justify-content-start align-items-center">
+                <img class="d-none d-lg-block" src="img/logo.svg" alt="logo 1">
+                <img class="d-lg-none" src="img/mobile-logo.png" alt="logo 1">
+            </div>
+            <!-- col 2 -->
+            <div class="col-8 h-100 d-flex justify-content-center align-items-center">
+                <div class="input-search w-100  p-2 rounded">
+                    <i class="fa-solid fa-magnifying-glass p-1 debug"></i>
+                    <input class="debug" type="text" placeholder="Prova a cercare: Lezioni di Laravel">
+                </div>
+            </div>
+            <!-- col 3 -->
+            <div class="col-2 h-100 d-flex justify-content-center align-items-center debug">
+                ciao
+            </div>
+        </div>
+        
     </header>
     <!-- /HEADER -->
 
 
 
     <!-- MAIN -->
-    <main class="d-flex fs-2">
+    <main class="d-flex fs-5">
 
         <!-- ASIDE -->
         <aside class="debug">
@@ -39,7 +58,7 @@
         <!-- /ASIDE -->
 
         <!-- MAIN WRAPPER -->
-        <section class="main-wrapper overflow-y-auto overflow-x-hidden debug">
+        <section class="main-wrapper overflow-y-auto overflow-x-hidden">
             
             <div class="main-top container-fluid text-white">
                 <div class="row flex-column flex-lg-row h-100 ">
@@ -50,18 +69,24 @@
             </div>
 
             <!-- MAIN BODY -->
-            <div class="main-body gm_container-100 d-flex justify-content-center flex-column flex-lg-row py-4 debug">
+            <div class="main-body gm_container-100 d-flex justify-content-center flex-column flex-lg-row py-4">
                 
                 <!-- row 1 -->
-                <div class="gm_row-1 debug">
+                <div class="gm_row-1 ">
                     <!-- col 1 -->
-                    <div class="col-12 debug">
+                    <div class="col-12">
                         <div class="gm-card">
                             <div class="card-header">
                                 Prossime classi
                             </div>
                             <div class="card-body">
-
+                                <ul class="list-group border-r">
+                                    <li class="list-group-item">An item</li>
+                                    <li class="list-group-item">A second item</li>
+                                    <li class="list-group-item">A third item</li>
+                                    <li class="list-group-item">A fourth item</li>
+                                    <li class="list-group-item">And a fifth one</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
