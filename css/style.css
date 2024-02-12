@@ -48,6 +48,7 @@ header input[type="text"]{
     font-size: .8rem;
     border: none;
 }
+
 /* FIXME: INPUT FOCUS */
 header input[type="text"]:focus{
     box-shadow: none;
