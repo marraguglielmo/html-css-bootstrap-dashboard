@@ -19,18 +19,34 @@ img{
 
 header{
     z-index: 999;
-    height: 70px;
+    height: 72px;
 }
 
 aside{
     top: 70px;
     width: 150px;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 72px);
     z-index: 999;
 }
 
 main{
-    margin-top: 70px;
+    margin-top: 72px;
     margin-left: 150px;
     overflow: auto;
+}
+
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width:768px){
+
+    aside{
+        width: 70px;
+    }
+    
+    main{
+        margin-left: 70px;
+    }
+
 }
