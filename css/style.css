@@ -3,6 +3,7 @@
     --blue: #1B72E8;
     --bg-card-header: #F7F7F7;
     --bg-aside: #051E34;
+    --bg-badge: #165BBA;
     --border-card: #00000033;
     --bg-input-text: #E5E5E5;
     --notify: rgb(255, 143, 0);
@@ -86,9 +87,21 @@ aside div div > *:hover{
 
 .main-top{
     background-color: var(--blue);
-    height: 270px;
+    height: 280px;
 }
 
+.main-top .row .badge{
+    background-color: var(--bg-badge) !important;
+}
+
+.main-top .row .col-12 .plus{
+    font-size: 3.5rem;
+}
+
+.main-top .row .col-12 .plus:hover{
+    cursor: pointer;
+    filter: brightness(.7);
+}
 
 .main-body .gm_row-1 .col-12:first-child{
     height: 500px;
@@ -132,6 +145,9 @@ aside div div > *:hover{
 
 @media screen and (min-width:768px){
 
+    .main-top{
+        height: 150px;
+    }
 
 }
 
@@ -146,9 +162,6 @@ aside div div > *:hover{
     width: calc(100% - 150px);
     }
 
-    .main-top{
-        height: 150px;
-    }
 
     .gm_row-1{
         width: 60%;
