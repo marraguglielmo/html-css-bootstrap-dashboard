@@ -38,9 +38,13 @@ aside{
 
 
 
+
 /* utils */
 
-
+.gm_container-100{
+    width: 100%;
+    margin: 0 auto;
+}
 
 
 
@@ -48,7 +52,7 @@ aside{
 
 @media screen and (min-width:768px){
 
-   
+
 
 }
 
@@ -65,6 +69,14 @@ aside{
 
     .main-top{
         height: 150px;
+    }
+
+    .gm_row-1{
+        width: 60%;
+    }
+    
+    .gm_row-2{
+        width: 40%;
     }
 
 }
