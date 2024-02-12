@@ -4,6 +4,7 @@
     --bg-card-header: #F7F7F7;
     --border-card: #00000033;
     --bg-input-text: #E5E5E5;
+    --notify: rgb(255, 143, 0);
 }
 
 .debug{
@@ -44,10 +45,11 @@ header .row img:last-child{
 
 header input[type="text"]{
     background: transparent;
-    width: 85%;
+    width: calc(100% - 50px);
     font-size: .8rem;
     border: none;
 }
+
 
 /* FIXME: INPUT FOCUS */
 header input[type="text"]:focus{
@@ -56,7 +58,7 @@ header input[type="text"]:focus{
 }
 
 header .row i{
-    width: 3%;
+    width: 35px;
 }
 
 header .row i:hover{
@@ -64,7 +66,6 @@ header .row i:hover{
 }
 
 header .row .input-search{
-    width: fit-content;
     background-color: var(--bg-input-text);
 }
 
@@ -76,13 +77,6 @@ header .row .input-search{
     height: 270px;
 }
 
-.gm_row-1{
-    border: 1px solid #00000033;
-}
-
-.gm_row-2{
-    width: 40%;
-}
 
 .main-body .gm_row-1 .col-12:first-child{
     height: 500px;
@@ -125,7 +119,6 @@ header .row .input-search{
 /* MEDIA QUERY */
 
 @media screen and (min-width:768px){
-
 
 
 }
