@@ -2,6 +2,7 @@
     --bg-body: #white;
     --blue: #1B72E8;
     --bg-card-header: #F7F7F7;
+    --bg-aside: #051E34;
     --border-card: #00000033;
     --bg-input-text: #E5E5E5;
     --notify: rgb(255, 143, 0);
@@ -26,6 +27,8 @@ header{
 }
 
 aside{
+    background-image: url("../img/sidebar-bg.png");
+    background-color: var(--bg-aside);
     width: 70px;
     height: calc(100vh - 72px);
 }
@@ -69,6 +72,15 @@ header .row .input-search{
     background-color: var(--bg-input-text);
 }
 
+/* aside */
+aside i{
+    width: 20px;
+}
+
+aside div div > *:hover{
+    cursor: pointer;
+    filter: brightness(.5);
+}
 
 /* main wrapper */
 
