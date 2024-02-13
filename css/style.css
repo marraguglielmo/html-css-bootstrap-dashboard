@@ -88,7 +88,12 @@ aside i{
     width: 20px;
 }
 
-aside div div:hover{
+aside .a-box{
+    transition: background .4s;
+    border-radius: 5px;
+}
+
+aside .a-box:hover{
     cursor: pointer;
     background:rgba(255, 255, 255, 0.5);
 }
@@ -167,8 +172,12 @@ aside div div:hover{
         width: 150px;
     }
 
+    aside .a-box{
+        width: 100%;
+    }
+
     .main-wrapper{
-    width: calc(100% - 150px);
+        width: calc(100% - 150px);
     }
 
 
