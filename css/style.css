@@ -125,6 +125,7 @@ aside div div:hover{
 
 .main-body .gm_row-1 .card tr .actions{
     color: var(--grey-icon);
+    height: 30px;
 }
 
 .main-body .gm_row-1 .card tr .actions > *{
@@ -141,13 +142,6 @@ aside div div:hover{
 
 .main-body .gm_row-2 .card ul li.user{
     border-top: none !important;
-}
-
-/* cards */
-.card-header{
-    background-color: var(--bg-card-header);
-    border-top-right-radius: 5px !important;
-    border-top-left-radius: 5px !important;
 }
 
 
