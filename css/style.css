@@ -140,10 +140,6 @@ aside div div:hover{
 }
 
 
-.main-body .gm_row-2 .col-12:first-child{
-    height: 300px;
-}
-
 .main-body .gm_row-2 .col-12:nth-child(2){
     height: 600px;
 }
