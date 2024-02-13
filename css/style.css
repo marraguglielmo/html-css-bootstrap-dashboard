@@ -44,6 +44,9 @@ h5{
     font-size: 1.7rem;
 }
 
+.right-form{
+    width: 100% !important;
+}
 
 /* utils */
 
@@ -51,8 +54,6 @@ h5{
     width: 100%;
     margin: 0 auto;
 }
-
-
 
 /* header */
 header .row img:last-child{
@@ -104,6 +105,16 @@ aside .a-box:hover{
     filter: brightness(.8);
 }
 
+.main-top .row .col-12 .new-student{
+    width: 40px;
+    aspect-ratio: 1;
+}
+
+.main-top .row .col-12 .new-student:hover{
+    background: white;
+    color: var(--blue);
+    cursor: pointer;
+}
 
 
 /* main wrapper */
@@ -187,6 +198,10 @@ aside .a-box:hover{
     
     .gm_row-2{
         width: 35%;
+    }
+
+    .right-form{
+        width: 60% !important;
     }
 
 }
