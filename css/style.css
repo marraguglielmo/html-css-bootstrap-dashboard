@@ -40,6 +40,9 @@ aside{
     height: calc(100vh - 72px);
 }
 
+h5{
+    font-size: 1.7rem;
+}
 
 
 /* utils */
@@ -136,11 +139,6 @@ aside div div:hover{
     cursor: pointer;
 }
 
-
-
-.main-body .gm_row-1 .col-12:nth-child(2){
-    height: 300px;
-}
 
 .main-body .gm_row-2 .col-12:first-child{
     height: 300px;
