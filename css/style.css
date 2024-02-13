@@ -139,9 +139,8 @@ aside div div:hover{
     cursor: pointer;
 }
 
-
-.main-body .gm_row-2 .col-12:nth-child(2){
-    height: 600px;
+.main-body .gm_row-2 .card ul li.user{
+    border-top: none !important;
 }
 
 /* cards */
