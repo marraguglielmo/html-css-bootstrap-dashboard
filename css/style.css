@@ -75,10 +75,6 @@ header input[type="text"]:focus{
     border-color: var(--bg-input-text);
 }
 
-header .row i{
-    width: 35px;
-}
-
 header .row i:hover{
     cursor: pointer;
 }
