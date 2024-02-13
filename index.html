@@ -92,7 +92,7 @@
             
             <div class="main-top container-fluid text-white">
                 <div class="row flex-column flex-md-row h-100 py-3">
-                    <div class="col-12 col-md-4 py-1 fs-4">
+                    <div class="col-12 col-md-4 py-1 fs-4 order-md-1">
                         Nuovo studente 
                         <i class="plus fa-regular fa-square-plus ms-4 align-middle "></i>
                     </div>
@@ -107,7 +107,7 @@
                             <span class="badge rounded-pill text-bg-primary">+</span>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 fs-5 py-1 mt-2">
+                    <div class="col-12 col-md-4 fs-5 py-2">
                         <span>Studenti online negli ultimi 30 minuti</span><br>
                         <span class="fs-1">125</span>
                     </div>
@@ -120,21 +120,36 @@
                 <!-- row 1 -->
                 <div class="gm_row-1 ">
                     <!-- col 1 -->
-                    <div class="col-12">
-                        <div class="gm-card">
-                            <div class="card-header">
-                                Prossime classi
+                    <div class="col-12 p-2">
+                            <div class="card">
+                                <h5 class="card-header">Prossime classi</h5>
+                                <div class="card-body">
+                                    
+                                    <table class="table table-hover text-center">
+                                        <tr>
+                                            <th class="text-start">Nome</th>
+                                            <th>Data inizio</th>
+                                            <th>ROI</th>
+                                            <th>Stato</th>
+                                            <th>Azioni</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="class d-flex align-items-center ">
+                                                <span>
+                                                    <i class="fa-solid fa-code p-1 text-white rounded-circle d-flex justify-content-center align-items-center"></i>
+                                                </span>
+                                                <span class="ms-2">Classe 75</span>
+                                            </td>
+                                            <td>15 Febbraio 2021</td>
+                                            <td>20%</td>
+                                            <td>done</td>
+                                            <td>matita cestino</td>
+                                        </tr>
+                                    </table>
+                                    
+                                    
+                                </div>
                             </div>
-                            <div class="card-body">
-                                <ul class="list-group border-r">
-                                    <li class="list-group-item">An item</li>
-                                    <li class="list-group-item">A second item</li>
-                                    <li class="list-group-item">A third item</li>
-                                    <li class="list-group-item">A fourth item</li>
-                                    <li class="list-group-item">And a fifth one</li>
-                                </ul>
-                            </div>
-                        </div>
                     </div>
                     <!-- col 2 -->
                     <div class="col-12 debug">

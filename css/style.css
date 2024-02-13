@@ -78,16 +78,16 @@ aside i{
     width: 20px;
 }
 
-aside div div > *:hover{
+aside div div:hover{
     cursor: pointer;
-    filter: brightness(.5);
+    background:rgba(255, 255, 255, 0.5);
 }
 
 /* main wrapper */
 
 .main-top{
     background-color: var(--blue);
-    height: 280px;
+    height: 300px;
 }
 
 .main-top .row .badge{
@@ -102,6 +102,15 @@ aside div div > *:hover{
     cursor: pointer;
     filter: brightness(.7);
 }
+
+.main-body .gm_row-1 .card tr .class span:first-child{}
+
+.main-body .gm_row-1 .card tr .class i{
+    background-color: #D66D59;
+    width: 30px;
+    aspect-ratio: 1;
+}
+
 
 .main-body .gm_row-1 .col-12:first-child{
     height: 500px;
@@ -164,11 +173,11 @@ aside div div > *:hover{
 
 
     .gm_row-1{
-        width: 60%;
+        width: 65%;
     }
     
     .gm_row-2{
-        width: 40%;
+        width: 35%;
     }
 
 }
